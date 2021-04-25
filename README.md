@@ -1,6 +1,8 @@
-# HackerNews
+# HackerNews Clone
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8.
+
+Deployed on http://csgy9223.videos.s3-website-ap-southeast-1.amazonaws.com temporarily.
 
 ## Development server
 
