@@ -1,0 +1,24 @@
+.post-block {
+    display: flex;
+    color: #828282;
+    &-index {
+        margin-left: 5px;
+        margin-right: 2px;
+        width: 30px;
+        text-align: end;
+    }
+    &-content {
+        display: flex;
+        flex-direction: column;
+        line-height: 17px;
+        padding: 2px 0;
+        .first-row {
+            display: flex;
+            font-size: 10pt;
+            &-content {
+                color: #000000;
+                cursor: pointer;
+            }
+        }
+    }
+}

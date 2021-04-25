@@ -1,0 +1,10 @@
+<div class="post-block">
+    <div class="post-block-index">{{(post.index || 0) + 1}}.</div>
+    <div class="post-block-content">
+        <div class="first-row">
+            <div class="first-row-content" (click)="handleClick()">{{post.content}}</div>
+            <div class="first-row-url">({{formatUrl(post.url || '')}})</div>
+        </div>
+        <div class="second-row">{{post.score}} points by {{post.author}} | hide | {{post.commentNo}} comments</div>
+    </div>
+</div>

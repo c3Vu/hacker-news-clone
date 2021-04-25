@@ -1,0 +1,11 @@
+
+<div class="posts" *ngIf="loading">Loading</div>
+<ng-template [ngIf]="!loading">
+    <div class="posts">
+        <app-news-post *ngFor="let post of postContents.slice(this.pageNo * 30, (this.pageNo + 1) * 30)"
+            [post]="post"
+        >
+        </app-news-post>
+        <div [routerLink]="['/news', pageNo + 1]" class="more">More</div>
+    </div>
+</ng-template>
